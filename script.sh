@@ -1,3 +1,5 @@
+#Script converter .jpg > .png
+
 #!/bin/bash 
 cd imagens-livros
 
@@ -9,4 +11,6 @@ do
         convert $imagem $img_sem_ext.png
 done 
 cd ..
+
+#Rodrigo Sousa
 
